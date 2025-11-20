@@ -1,18 +1,37 @@
+/*j'ai changer le titre en rouge pour etre lisible */
 p{
-    color: darkred;
+    color:blanchedalmond;
 }
+ 
+/*J'ai changer le paragraphe en vert */
 h1{
     color: green;
 }
+
 ol{
     color: blue;
 }
 h2{
-    color: blueviolet;
+    color:rebeccapurple;
 }
 h3{
     color:gold;
 }
 h4{
-    color: darkslategray;
+    color:deepskyblue;
+}
+#paragraphh1{
+    color: blue;
+}
+/*J'ai changer le titre nous sommes ravi en bleu en utilisant CLASS*/
+p.RSMA{
+    color: blue;
+}
+/*J'ai changer les paragraphe en bleu*/
+p.RSMA{
+    color: blue;
+}
+
+body{
+    background-color: black;
 }
