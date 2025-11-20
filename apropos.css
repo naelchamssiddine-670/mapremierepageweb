@@ -1,0 +1,22 @@
+h1{
+    font-size:3.5em;
+    color: #a5b4fc;
+    font-family:'police Montserrat'sans-serif;
+}
+
+p{
+    font-size:1.1em;
+    font-family:'police Montserrat'sans-serif;
+}
+
+li{
+    font-size:1em;
+    font-family:'police Manrope'sans-serif;
+
+}
+
+a{
+    text-decoration:dashed;
+    font-size:1em;
+    font-family:'police Manrope'sans-serif;
+}

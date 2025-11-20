@@ -1,3 +1,7 @@
+body {
+
+}
+
 /*j'ai changer le titre en rouge pour etre lisible */
 p{
     color:blanchedalmond;
@@ -6,7 +10,9 @@ p{
 /*J'ai changer le paragraphe en vert */
 h1{
     color: green;
+    font-style:italic;
 }
+
 
 ol{
     color: blue;
@@ -16,22 +22,40 @@ h2{
 }
 h3{
     color:gold;
+    text-decoration:underline;
 }
 h4{
     color:deepskyblue;
 }
+
+/*Je décris le style appliqué à la balise dont l'identifiant est "paragraphe1"*/
 #paragraphh1{
-    color: blue;
+    color: blue;/*La couleur du texte est bleu*/
+    font-family:'Trirong', sans-serif;/*nom de la police du texte*/
 }
 /*J'ai changer le titre nous sommes ravi en bleu en utilisant CLASS*/
 p.RSMA{
     color: blue;
+
 }
 /*J'ai changer les paragraphe en bleu*/
 p.RSMA{
-    color: blue;
+    color: blue;/*Couleur du texte*/
+    font-size:larger;/*Taille de la police*/
+    font-family:'Sofia',sans-serif;/*nom de la police du texte*/
 }
 
 body{
     background-color: black;
 }
+
+/*J'ai changer la taille des paragraphe*/
+p.RSMA{
+    font-size: 25px;
+    font-family:'Sofia',sans-serif;
+}
+
+body{
+    font-family:'Oswald|Roboto|Sofia|Trirong',sans-serif;
+}
+
