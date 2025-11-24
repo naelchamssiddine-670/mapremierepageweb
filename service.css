@@ -1,5 +1,23 @@
-/*div:est le selecteur*/
+/*Ici, je rédige la feuille de style pour mettre en forme le fichier service.html*/
 div{
-    color:red; /*color:c'est la partie du propriété:red et la valeur */
+    color:black; /*color:c'est la partie du propriété:black et la valeur */
+   
+    /*background-color: arrière plan-en couleur vas surligner les phrase qui se trouve dans le paragraphe*/
+    background-color:blueviolet;
+}
 
+#solid{
+    border:solid;
+}
+
+#double{
+    border:double;
+}
+
+#dotted{
+    border:dotted;
+}
+
+#dashed{
+    border: dashed;
 }
