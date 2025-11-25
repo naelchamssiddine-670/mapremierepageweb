@@ -23,9 +23,8 @@ div{
 }
 
 
-/*Je mets en forme */
-
-div{
+/*Je sélectionne ma premier balise <div> grace à son identifiant div */
+div{  
   width: 250px;  
   border: solid;
   color:red;
@@ -35,10 +34,16 @@ div{
 p{
   color:blue;
 }
-
+/*Je sélectionne ma premier balise <div> grace à son identifiant div1 */
+/*le # permet de identifier */
+div{
+    width: 300px;
+    height: 250px;
+}
 #div1{
   width: 150px; /*change la taille et la réduit*/  
   border: double;
+  height: 150px;
   color: green;
   border-radius:25px 20px 45px
 }
@@ -46,12 +51,18 @@ p{
 #p1{
   color:black;
 }
-
+/* Je sélectionne ma deuxième balise <div> grave à son identifiant div2*/
 #div2{
-  width: 120px;  
+  /*la hauteur */  
+  height: 45px;
+  /*width: veut dire la largeur*/  
+  width: 120px; 
+  /* la bordure est pointillée, de couleur rouge et 4px d'épaisseur*/ 
   border: dotted;
   color: blueviolet;
   border-radius:35px 20px 15px
+  /* le text est aligné au centre*/  
+  
 }
 
 #p2{
