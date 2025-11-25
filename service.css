@@ -3,7 +3,7 @@ div{
     color:black; /*color:c'est la partie du propriété:black et la valeur */
    
     /*background-color: arrière plan-en couleur vas surligner les phrase qui se trouve dans le paragraphe*/
-    background-color:blueviolet;
+    background-color:rgb(137, 226, 43);
 }
 
 #solid{
@@ -20,4 +20,37 @@ div{
 
 #dashed{
     border: dashed;
+}
+
+
+/*Je mets en forme */
+
+div{
+  border: solid;
+  color:red;
+  border-radius:25px 20px 45px 45px
+}
+
+p{
+  color:blue;
+}
+
+#div1{
+  border: double;
+  color: green;
+  border-radius:25px 20px 45px
+}
+
+#p1{
+  color:black;
+}
+
+#div2{
+  border: dotted;
+  color: blueviolet;
+  border-radius:35px 20px 15px
+}
+
+#p2{
+  color:black;
 }
