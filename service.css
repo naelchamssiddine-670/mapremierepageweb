@@ -28,7 +28,7 @@ div{
   width: 250px;  
   border: solid;
   color:red;
-  border-radius:25px 20px 45px 45px
+  border-radius:25px 20px 45px 45px;
 }
 
 p{
@@ -45,7 +45,7 @@ div{
   border: double;
   height: 150px;
   color: green;
-  border-radius:25px 20px 45px
+  border-radius:25px 20px 45px;
 }
 
 #p1{
@@ -60,7 +60,7 @@ div{
   /* la bordure est pointillée, de couleur rouge et 4px d'épaisseur*/ 
   border: dotted;
   color: blueviolet;
-  border-radius:35px 20px 15px
+  border-radius:35px 20px 15px;
   /* le text est aligné au centre*/  
   
 }
@@ -68,3 +68,22 @@ div{
 #p2{
   color:black;
 }
+
+#div3{
+  color: rgb(215, 197, 197);  
+  background-color: #32156e; 
+  background:linear-gradient(115deg,#6714b0,#99199d,#f40b9b); 
+  border-radius: 30% 70% 70% 30% / 30% 58% 42% 70% ;  
+}
+
+#div4{
+  border: solid;  
+  color: lightseagreen;
+  background: darkturquoise;
+  border-radius: 8px 8px 8px 8px ;
+  box-shadow: 6px 6px 0px rgba(0,0,0);
+
+
+
+}
+
