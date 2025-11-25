@@ -26,6 +26,7 @@ div{
 /*Je mets en forme */
 
 div{
+  width: 250px;  
   border: solid;
   color:red;
   border-radius:25px 20px 45px 45px
@@ -36,6 +37,7 @@ p{
 }
 
 #div1{
+  width: 150px; /*change la taille et la réduit*/  
   border: double;
   color: green;
   border-radius:25px 20px 45px
@@ -46,6 +48,7 @@ p{
 }
 
 #div2{
+  width: 120px;  
   border: dotted;
   color: blueviolet;
   border-radius:35px 20px 15px
