@@ -1,3 +1,4 @@
+<!--Je crée un formulaire d'inscription-->
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -10,5 +11,44 @@
 
 
     </body>
-  
-    </html>  
+        <!-- Je rédige la structure du formulaire d'inscription -->
+         <form><!-- Début du formulaire-->
+            <label for="prénom"> Prénom(s):<label>
+                <!--Je précise le prénom-->
+            <input type="text" name="prénom" id="prénom">
+            <br><br>
+            <label for="nom"> Nom:</label>
+                <!--Je précise le nom-->
+            <input type="text" name="nom" id="nom">
+            <br><br>
+            <label for="village"> Village:</label>
+                <!--Je précise le nom du village-->
+            <input type="text" name="village" id="village">
+            <br><br>
+            <label for="date de naissance"> Date de naissance:<label>
+                <!--Je précisse la date de naissance-->
+            <input type="date" name="dateNaissance" id="dateNaissance">
+                <!--input: c'est un point-->
+            <br><br>
+            <input type="radio" id="sexeMasculin" name="sexeMasculin">
+            <label for="sexe">M</label><br>
+                <!--Je précise le sexe-->
+            <input type="radio" id="sexeFemminin" name="sexeFemminin">
+            <label for="sexe">F</label><br>
+                <!--Je précise le sexe-->
+            <br><br>
+              <label>Disciplines:</label>
+           
+           <input type="checkbox">                
+           <label>Mathématiques:<label>
+             <input type="checkbox"> <label>Histoire-géographie:<label>
+             <input type="checkbox"name="histoireGeographie">
+  <input type="checkbox" name="eps" id="eps">
+             <label for="eps">EPS:</label>
+             <br><br>
+             <label for="email">Email:</label>
+             <input type="text" name="email">
+
+         </form><!-- Fin du formulaire-->
+
+</html>  
