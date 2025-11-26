@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>formulaire d'inscription</title>
+        <link href="formulaire.css"rel="stylesheet">
     </head>
     <body>
         <p></p>
@@ -13,25 +14,35 @@
     </body>
         <!-- Je rédige la structure du formulaire d'inscription -->
          <form><!-- Début du formulaire-->
-            <label for="prénom"> Prénom(s):<label>
-                <!--Je précise le prénom-->
-            <input type="text" name="prénom" id="prénom">
+            <div>
+                    <label for="prénom"> Prénom(s):<label>
+                    <!--Je précise le prénom-->
+                    <input type="text" name="prénom" id="prénom">
+
+                    <label for="nom"> Nom:</label>
+                    <!--Je précise le nom-->
+                    <input type="text" name="nom" id="nom">
+            </div>
+
             <br><br>
-            <label for="nom"> Nom:</label>
-                <!--Je précise le nom-->
-            <input type="text" name="nom" id="nom">
+
+            <div2>
+                    <label for="village"> Village:</label>
+                    <!--Je précise le nom du village-->
+                    <input type="text" name="village" id="village">
+
+                    <label for="date de naissance"> Date de naissance:<label>
+                    <!--Je précisse la date de naissance-->
+                    <input type="date" name="dateNaissance" id="dateNaissance">
+                    <!--input: c'est un point-->
+            </div2> 
+
             <br><br>
-            <label for="village"> Village:</label>
-                <!--Je précise le nom du village-->
-            <input type="text" name="village" id="village">
-            <br><br>
-            <label for="date de naissance"> Date de naissance:<label>
-                <!--Je précisse la date de naissance-->
-            <input type="date" name="dateNaissance" id="dateNaissance">
-                <!--input: c'est un point-->
-            <br><br>
+
+            
             <input type="radio" id="sexeMasculin" name="sexeMasculin">
-            <label for="sexe">M</label><br>
+            <label for="sexe">M</label>
+            <br>
                 <!--Je précise le sexe-->
             <input type="radio" id="sexeFemminin" name="sexeFemminin">
             <label for="sexe">F</label><br>
@@ -46,8 +57,14 @@
   <input type="checkbox" name="eps" id="eps">
              <label for="eps">EPS:</label>
              <br><br>
-             <label for="email">Email:</label>
-             <input type="text" name="email">
+
+             <div3>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email">
+             </div3>
+                    
+             <br><br>
+                        <input type="submit">
 
          </form><!-- Fin du formulaire-->
 

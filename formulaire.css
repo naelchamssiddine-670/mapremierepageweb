@@ -1,0 +1,17 @@
+form{
+  background:goldenrod;/*background:sert à changer le fond de mon paragraphe */
+  text-align:center;
+  
+}
+
+div{
+    display: inline;
+    
+}
+
+input[type=text]{
+    padding: 10px; /*Ajouter un espace à l'intérieur de la <input>*/
+    margin: 45px;/*la valeur margin permet d'agrandir la marge du fichier*/
+    border: solid; 
+    border-radius: 8px 8px 8px 8px ;
+}
