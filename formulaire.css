@@ -9,9 +9,9 @@ div{
     
 }
 
-input[type=text]{
+input[type=text], input[type=date]{
     padding: 10px; /*Ajouter un espace à l'intérieur de la <input>*/
-    margin: 45px;/*la valeur margin permet d'agrandir la marge du fichier*/
+    margin: 50px;/*la valeur margin permet d'agrandir la marge du fichier*/
     border: solid; 
     border-radius: 8px 8px 8px 8px ;
 }
